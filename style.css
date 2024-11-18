@@ -1,0 +1,36 @@
+body{
+text-align: center;
+background-color: rgba(63, 11, 196, 0.962);
+color: bisque;
+font-family: "Brush Script MT",cursive;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgba(59, 14, 122, 0.701);
+    font-size: xx-large;
+    border: #7278af solid;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.container > p{
+    margin: 0;
+}
+button{
+    background-color: rgb(180, 21, 21);
+    color: burlywood;
+    border-radius: 20px;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0 20px;
+}
+button:hover{
+background-color: rgb(218, 20, 20);
+}
+.userControl{
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+color: yellow;
+}
